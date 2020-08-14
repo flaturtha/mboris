@@ -9,6 +9,10 @@ module.exports = {
       creme: '#ffffeb',
       dingygrey: '#242424',
     },
+    fontFamily: {
+      'serif': ['Libertinus Serif Regular'],
+      'sans': ['Libertainus Sans Regular'],
+    },
     extend: {},
   },
   variants: {},

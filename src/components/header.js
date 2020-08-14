@@ -12,7 +12,7 @@ function Header({ siteTitle }) {
       <Link to={'/'}>
         <div className="flex items-center flex-shrink-0 text-black mr-6">
           
-          <span className="font-display font-semibold text-xl lg:text-3xl tracking-tighter uppercase text-shockingyellow">
+          <span className="font-display font-semibold text-xl lg:text-3xl tracking-tighter uppercase text-shockingyellow font-serif">
             {siteTitle}
           </span>
         </div>
@@ -43,19 +43,19 @@ function Header({ siteTitle }) {
           <Link
             to={`/books`}
             href="#responsive-header"
-            className="block mt-4 lg:inline-block lg:mt-0 text-shockingyellow font-bold hover:bg-shockingyellow hover:text-dingygrey rounded-sm px-2 mr-20 uppercase"
+            className="font-serif block mt-4 lg:inline-block lg:mt-0 text-shockingyellow font-bold hover:bg-shockingyellow hover:text-dingygrey rounded-sm px-2 mr-20 uppercase"
           >
             Books
           </Link>
           <Link
             to={`/biography`}
-            className="block mt-4 lg:inline-block lg:mt-0 text-shockingyellow font-bold hover:bg-shockingyellow hover:text-dingygrey rounded-sm px-2 mr-20 uppercase"
+            className="font-serif block mt-4 lg:inline-block lg:mt-0 text-shockingyellow font-bold hover:bg-shockingyellow hover:text-dingygrey rounded-sm px-2 mr-20 uppercase"
           >
             Bio
           </Link>
           <Link
             to={`/research-notes`}
-            className="block mt-4 lg:inline-block lg:mt-0 text-shockingyellow font-bold hover:bg-shockingyellow hover:text-dingygrey rounded-sm px-2 mr-20 uppercase"
+            className="font-serif block mt-4 lg:inline-block lg:mt-0 text-shockingyellow font-bold hover:bg-shockingyellow hover:text-dingygrey rounded-sm px-2 mr-20 uppercase"
           >
             Research Notes
           </Link>
@@ -63,7 +63,7 @@ function Header({ siteTitle }) {
         <div>
           <a
             href="#download"
-            className="inline-block uppercase font-bold px-6 py-4 leading-none border rounded-lg text-dingygrey bg-shockingyellow hover:bg-dingygrey hover:text-shockingyellow  px-2 mt-4 lg:mt-0"
+            className="font-serif inline-block uppercase font-bold px-6 py-4 leading-none border rounded-lg text-dingygrey bg-shockingyellow hover:bg-dingygrey hover:text-shockingyellow  px-2 mt-4 lg:mt-0"
           >
             Free Short Story
           </a>

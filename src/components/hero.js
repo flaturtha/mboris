@@ -13,7 +13,7 @@ const Hero = (props) => (
   
     </div>
 
-    <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start items-center text-center">
+    <div className="font-serif lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start items-center text-center">
       <h1 className="title-font tracking-wide text-xl lg:text-4xl mb-4 font-medium text-gray-900">THE MANIACAL MIND BEHIND &hellip; <span className="block italic mt-6 text-3xl lg:text-6xl text-shockingyellow">THE 64 TESTAMENTS OF KRILL</span></h1>
     
       <h2 className="title-font text-base lg:text-xl my-8 font-medium text-gray-900">EXPLORER OF THE DARK <span className="text-shockingyellow">&middot;</span> INVESTIGATOR OF WHAT GOES <em>BUMP</em> IN THE NIGHT <span className="text-shockingyellow">&middot;</span> PULP WRITER OF COSMIC HORROR ADVENTURE <span className="text-shockingyellow">&middot;</span></h2>

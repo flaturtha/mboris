@@ -33,6 +33,15 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
+      resolve: "gatsby-plugin-web-font-loader",
+      options: {
+        custom: {
+          families: ["Libertinus Serif Regular", "Libertinus Sans Regular"],
+          urls: ["/fonts/fonts.css"]
+        },
+      },
+    },
+    {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `mboris-dev`,
@@ -41,7 +50,7 @@ module.exports = {
         background_color: fullConfig.theme.colors.creme,
         theme_color: fullConfig.theme.colors.shockingyellow,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/dougery_black.png`, // This path is relative to the root of the site.
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
