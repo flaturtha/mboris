@@ -185,16 +185,7 @@ const Intro = props => (
       >
         Read THE GODS WHO ARE REJECTED
       </button>
-      <div
-        style={{
-          marginTop: "2rem",
-          textAlign: "left",
-          fontSize: "0.875rem",
-          width: "500px",
-          margin: "0 auto",
-          padding: "0",
-        }}
-      >
+      <div className="mt-8 text-left text-sm max-w-lg container mx-auto p-o">
         <p>
           Email subscription required to access the stories. You will receive
           eight stories by email over eight days, plus have additional access to
