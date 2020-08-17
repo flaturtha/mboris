@@ -17,7 +17,7 @@ const Hero = (props) => (
     </div>
 
     <div className="font-serif lg:flex-grow lg:pl-24 md:pl-16 flex flex-col md:items-start items-center text-center order-1 lg:order-2">
-      <h1 className="title-font tracking-wide text-xl md:text-4xl mb-12 font-medium text-gray-900">THE MANIACAL MIND BEHIND &hellip; <span className="block italic mt-6 text-3xl lg:text-6xl text-shockingyellow">THE 64 TESTAMENTS OF <span className="hidden md:inline">COL.</span> KRILL<span className="hidden lg:inline"> &amp; THE TENTACLE CULT</span></span></h1>
+      <h1 className="title-font tracking-wide text-xl md:text-4xl mt-12 mb-12 font-medium text-gray-900">THE MANIACAL MIND BEHIND &hellip; <span className="block italic mt-6 text-3xl lg:text-6xl text-shockingyellow">THE 64 TESTAMENTS OF <span className="hidden md:inline">COL.</span> KRILL<span className="hidden lg:inline"> &amp; THE TENTACLE CULT</span></span></h1>
     
 
       <div className="flex justify-center hidden">

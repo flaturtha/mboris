@@ -8,12 +8,12 @@ function Header({ siteTitle }) {
   return (
     <>
     <div className="w-full bg-dingygrey m-0">
-    <nav className="container mx-auto flex items-center justify-between flex-wrap p-6 bg-dingygrey border-b border-shockingyellow">
+    <nav className="flex items-center justify-between flex-wrap p-6 bg-dingygrey border-b border-shockingyellow">
       <Link to={'/'}>
-        <div className="flex items-center flex-shrink-0 text-black mr-6">
+        <div className="flex items-center flex-shrink-0 mr-6">
           
-          <span className="font-semibold text-4xl tracking-tighter uppercase text-shockingyellow font-serif">
-            {siteTitle}
+          <span className="lg:ml-20 font-semibold text-4xl tracking-wider text-shockingyellow font-serif">
+            {siteTitle}<span className="hidden lg:inline lg:text-base text-shockingyellow font-serif"> &mdash; author of cosmic horror fiction</span>
           </span>
         </div>
       </Link>
@@ -41,7 +41,7 @@ function Header({ siteTitle }) {
       >
         <div className="md:flex-grow md:flex md:justify-center lg:justify-end md:pb-3 lg:pb-0">
           <Link
-            to={`/books`}
+            to={`/books/`}
             href="#responsive-header"
             className="font-serif block mt-4 lg:inline-block lg:mt-0 text-shockingyellow font-bold hover:bg-shockingyellow hover:text-dingygrey rounded-sm px-2 mr-7 lg:mr-20 uppercase text-4xl md:text-base"
           >
@@ -63,7 +63,7 @@ function Header({ siteTitle }) {
         <div className="border-b-2 border-shockingyellow md:border-none">
           <a
             href="#download"
-            className="font-serif inline-block uppercase font-bold px-2 py-2 mt-6 mb-6 lg:m-0 lg:px-6 lg:py-4 leading-none border rounded-lg text-dingygrey bg-shockingyellow hover:bg-dingygrey hover:text-shockingyellow mt-4 lg:mt-0 text-4xl md:text-base text-center"
+            className="font-serif inline-block uppercase font-bold px-2 py-2 mt-6 mb-6 lg:mr-20 lg:m-0 lg:px-6 lg:py-4 leading-none border rounded-lg text-dingygrey bg-shockingyellow hover:bg-dingygrey hover:text-shockingyellow mt-4 lg:mt-0 text-4xl md:text-base text-center"
           >
             Free Short Story
           </a>
