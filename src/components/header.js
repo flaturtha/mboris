@@ -8,17 +8,17 @@ function Header({ siteTitle }) {
   return (
     <>
     <div className="w-full bg-dingygrey m-0">
-    <nav className="container mx-auto flex items-center justify-between flex-wrap p-6 bg-dingygrey">
+    <nav className="container mx-auto flex items-center justify-between flex-wrap p-6 bg-dingygrey border-b border-shockingyellow">
       <Link to={'/'}>
         <div className="flex items-center flex-shrink-0 text-black mr-6">
           
-          <span className="font-display font-semibold text-xl lg:text-3xl tracking-tighter uppercase text-shockingyellow font-serif">
+          <span className="font-semibold text-4xl tracking-tighter uppercase text-shockingyellow font-serif">
             {siteTitle}
           </span>
         </div>
       </Link>
       
-      <div className="block lg:hidden">
+      <div className="block md:hidden">
         <button
           onClick={() => toggleExpansion(!isExpanded)}
           className="flex items-center px-3 py-2 text-shockingyellow hover:bg-dingygrey outline-none"
@@ -37,33 +37,33 @@ function Header({ siteTitle }) {
       <div
         className={`${
           isExpanded ? `block` : `hidden`
-        } w-full block flex-grow lg:flex lg:items-center lg:w-auto`}
+        } w-full block flex-grow md:flex md:items-center md:w-auto h-screen md:h-auto mt-10 border-t-2 border-shockingyellow md:border-none md:m-0`}
       >
-        <div className="lg:flex-grow lg:flex lg:justify-end">
+        <div className="md:flex-grow md:flex md:justify-center lg:justify-end md:pb-3 lg:pb-0">
           <Link
             to={`/books`}
             href="#responsive-header"
-            className="font-serif block mt-4 lg:inline-block lg:mt-0 text-shockingyellow font-bold hover:bg-shockingyellow hover:text-dingygrey rounded-sm px-2 mr-20 uppercase"
+            className="font-serif block mt-4 lg:inline-block lg:mt-0 text-shockingyellow font-bold hover:bg-shockingyellow hover:text-dingygrey rounded-sm px-2 mr-7 lg:mr-20 uppercase text-4xl md:text-base"
           >
             Books
           </Link>
           <Link
             to={`/biography`}
-            className="font-serif block mt-4 lg:inline-block lg:mt-0 text-shockingyellow font-bold hover:bg-shockingyellow hover:text-dingygrey rounded-sm px-2 mr-20 uppercase"
+            className="font-serif block mt-4 lg:inline-block lg:mt-0 text-shockingyellow font-bold hover:bg-shockingyellow hover:text-dingygrey rounded-sm px-2 mr-5 lg:mr-20 uppercase text-4xl md:text-base"
           >
             Bio
           </Link>
           <Link
-            to={`/research-notes`}
-            className="font-serif block mt-4 lg:inline-block lg:mt-0 text-shockingyellow font-bold hover:bg-shockingyellow hover:text-dingygrey rounded-sm px-2 mr-20 uppercase"
+            to={`/blog`}
+            className="font-serif block mt-4 lg:inline-block lg:mt-0 text-shockingyellow font-bold hover:bg-shockingyellow hover:text-dingygrey rounded-sm px-2 mr-10 lg:mr-20 uppercase text-4xl md:text-base"
           >
-            Research Notes
+            Blog
           </Link>
         </div>
-        <div>
+        <div className="border-b-2 border-shockingyellow md:border-none">
           <a
             href="#download"
-            className="font-serif inline-block uppercase font-bold px-6 py-4 leading-none border rounded-lg text-dingygrey bg-shockingyellow hover:bg-dingygrey hover:text-shockingyellow  px-2 mt-4 lg:mt-0"
+            className="font-serif inline-block uppercase font-bold px-2 py-2 mt-6 mb-6 lg:m-0 lg:px-6 lg:py-4 leading-none border rounded-lg text-dingygrey bg-shockingyellow hover:bg-dingygrey hover:text-shockingyellow mt-4 lg:mt-0 text-4xl md:text-base text-center"
           >
             Free Short Story
           </a>
