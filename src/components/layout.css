@@ -8,6 +8,19 @@
 
 * {
   font-family: Libertinus Serif;
+  /* background-color: #fffff0; */
+}
+
+body {
+  /* background-color: #ffffff; */
+}
+
+ul, ol, dd, dl, dt {
+  font-family: Libertinus Sans;
+}
+
+dd {
+  margin: 0 0 2rem 2rem;
 }
 
 p {

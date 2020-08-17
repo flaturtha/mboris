@@ -13,7 +13,7 @@ function Header({ siteTitle }) {
         <div className="flex items-center flex-shrink-0 mr-6">
           
           <span className="lg:ml-20 font-semibold text-4xl tracking-wider text-shockingyellow font-serif">
-            {siteTitle}<span className="hidden lg:inline lg:text-base text-shockingyellow font-serif"> &mdash; author of cosmic horror fiction</span>
+            {siteTitle}
           </span>
         </div>
       </Link>
@@ -41,7 +41,7 @@ function Header({ siteTitle }) {
       >
         <div className="md:flex-grow md:flex md:justify-center lg:justify-end md:pb-3 lg:pb-0">
           <Link
-            to={`/books/`}
+            to={`#books`}
             href="#responsive-header"
             className="font-serif block mt-4 lg:inline-block lg:mt-0 text-shockingyellow font-bold hover:bg-shockingyellow hover:text-dingygrey rounded-sm px-2 mr-7 lg:mr-20 uppercase text-4xl md:text-base"
           >

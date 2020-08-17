@@ -6,7 +6,7 @@ module.exports = {
   theme: {
     colors: {
       shockingyellow: '#fed136',
-      creme: '#ffffeb',
+      creme: '#f9ffe3',
       dingygrey: '#242424',
     },
     fontFamily: {
