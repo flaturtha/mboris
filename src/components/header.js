@@ -51,14 +51,14 @@ function Header({ siteTitle }) {
             to={`#bio`}
             className="font-serif block mt-4 lg:inline-block lg:mt-0 text-dingygrey font-bold hover:bg-dingygrey hover:text-creme rounded-sm px-2 mr-5 lg:mr-20 uppercase text-4xl md:text-base"
           >
-            Bio
+            Biography
           </Link>
-          <Link
+        {/*  <Link
             to={`/blog`}
             className="font-serif block mt-4 lg:inline-block lg:mt-0 text-dingygrey font-bold hover:bg-dingygrey hover:text-creme rounded-sm px-2 mr-10 lg:mr-20 uppercase text-4xl md:text-base"
           >
             Blog
-          </Link>
+          </Link> */}
         </div>
         <div className="border-b-2 border-dingygrey md:border-none">
           <a
