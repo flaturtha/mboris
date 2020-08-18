@@ -48,7 +48,7 @@ module.exports = {
         short_name: `mboris`,
         start_url: `/`,
         background_color: fullConfig.theme.colors.creme,
-        theme_color: fullConfig.theme.colors.shockingyellow,
+        theme_color: fullConfig.theme.colors.dingygrey,
         display: `minimal-ui`,
         icon: `src/images/dougery_black.png`, // This path is relative to the root of the site.
       },

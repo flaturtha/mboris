@@ -12,7 +12,7 @@ const Hero = (props) => (
         <Image />
       </div>
       
-      <h2 className="text-center lg:block md:text-xl md:ml-8 my-8 md:my-0 font-medium text-creme">EXPLORER OF THE DARK <span className="text-shockingyellow">&middot;</span> INVESTIGATOR OF WHAT GOES <em>BUMP</em> IN THE NIGHT <span className="text-shockingyellow">&middot;</span> PULP AUTHOR OF COSMIC HORROR ADVENTURE <span className="text-shockingyellow">&middot;</span></h2>
+      <h2 className="text-center lg:block md:text-xl md:ml-8 my-8 md:my-0 font-medium text-creme">EXPLORER OF THE DARK <span className="text-dingygrey">&middot;</span> INVESTIGATOR OF WHAT GOES <em>BUMP</em> IN THE NIGHT <span className="text-dingygrey">&middot;</span> PULP AUTHOR OF COSMIC HORROR ADVENTURE <span className="text-dingygrey">&middot;</span></h2>
 
     </div>
 
@@ -20,8 +20,8 @@ const Hero = (props) => (
 
 </section>
 
-<h1 className="tracking-wide text-center text-xl md:text-4xl mt-0 md:mt-12 pb-12 md:pb-0 mb-0 font-medium text-shockingyellow">THE MANIACAL MIND BEHIND &hellip;</h1>
-<p className="text-shockingyellow text-4xl text-center mb-0 pb-9=0 font-black">&#709;</p>
+<h1 className="tracking-wide text-center text-xl md:text-4xl mt-0 md:mt-12 pb-12 md:pb-0 mb-0 font-medium text-creme">THE MANIACAL MIND BEHIND &hellip;</h1>
+<p className="text-creme text-4xl text-center mb-0 pb-9=0 font-black">&#709;</p>
 
 
 </div>

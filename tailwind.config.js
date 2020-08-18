@@ -5,8 +5,9 @@ module.exports = {
   purge: [],
   theme: {
     colors: {
-      shockingyellow: '#fed136',
-      creme: '#f9ffe3',
+      oldcreme: '#f9ffe3`',
+      oldyellow: 'fed136',
+      creme: '#ffffff',
       dingygrey: '#242424',
     },
     fontFamily: {
