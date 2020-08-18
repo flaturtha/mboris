@@ -8,7 +8,7 @@
 
 * {
   font-family: Libertinus Serif;
-  /* background-color: #fffff0; */
+  /* font-size: 18px; */
 }
 
 body {
@@ -27,6 +27,7 @@ p {
   font-family: Libertinus Sans;
   padding-bottom: 1rem;
 }
+
 
 @tailwind components;
 @tailwind utilities;

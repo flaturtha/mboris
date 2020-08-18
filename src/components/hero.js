@@ -12,7 +12,7 @@ const Hero = (props) => (
         <Image />
       </div>
       
-      <h2 className="text-center lg:block md:text-xl md:ml-8 my-8 md:my-0 font-medium text-creme">EXPLORER OF THE DARK <span className="text-dingygrey">&middot;</span> INVESTIGATOR OF WHAT GOES <em>BUMP</em> IN THE NIGHT <span className="text-dingygrey">&middot;</span> PULP AUTHOR OF COSMIC HORROR ADVENTURE <span className="text-dingygrey">&middot;</span></h2>
+      <h2 className="text-center lg:block md:text-xl md:ml-8 my-8 md:my-0 font-medium text-creme">EXPLORER OF THE DARK <span className="text-creme">&middot;</span> INVESTIGATOR OF WHAT GOES <em>BUMP</em> IN THE NIGHT <span className="text-creme">&middot;</span> AUTHOR OF PULP COSMIC HORROR ADVENTURE <span className="text-creme">&middot;</span></h2>
 
     </div>
 

@@ -1,4 +1,5 @@
 import React from "react"
+import { BsBoxArrowInDown } from 'react-icons/bs'
 
 const Books = props => (
   <section className="container mx-auto mt-0 px-4 lg:py-12 lg:px-20 " id="books">
@@ -7,12 +8,16 @@ const Books = props => (
     <hr className="w-1/2 mx-auto mb-4" />
     <h1 className="uppercase text-center text-4xl">The <span className="text-6xl">64</span> Testaments of Krill</h1>
 
-      <h2 className="text-center italic text-xl tracking-widest mt-8 md:mt-0">&mdash; SIXTY-FOUR novellas in EIGHT VOLUMEs &mdash; </h2>
+      <h2 className="text-center italic text-xl tracking-widest mt-8 md:mt-0">&mdash; SIXTY-FOUR novellas in EIGHT VOLUMES &mdash; </h2>
       <hr className="w-1/2 mx-auto mt-6 mb-12" />
 
       <p className="italic mt-8 md:w-1/2 mx-auto">His sacrilege awoke an ancient evil that demanded the souls of his troops and cursed him to wander the earth for eternity, paying his wretched daily penance.</p>
+      
+      {/* make this a link to the download form */}
+      <p className="text-sm text-center italic underline md:w-1/2 my-4 mx-auto">Get your FREE short story prequel series<br/>THE GODS WHO ARE REJECTED<br/><BsBoxArrowInDown className="text-xl inline black" /></p>
       <br className="hidden md:block"/>
-      <p>Now, after nearly 100 years of searching, Colonel Krill has proof that the 'gods who are rejected' are indeed vulnerable, and if he can locate the 5 relics before the end of the 9,000 years of Ahriman's rule, signified by the return of the comet, he can lure this ancient evil from their realm into a trap that will destroy them and finally break the curse.</p>
+      
+      <p><span className="font-semibold">NOW, AFTER NEARLY 100 YEARS OF</span> searching, Colonel Krill has proof that the 'gods who are rejected' are indeed vulnerable, and if he can locate the 5 relics before the end of the 9,000 years of Ahriman's rule, signified by the return of the comet, he can lure this ancient evil from their realm into a trap that will destroy them and finally break the curse.</p>
       <p>But the 'gods who are rejected' have allies in the realm of humanity; allies willing to use whatever means necessary to use Col. Krill as a gateway through which the dark gods can enter our realm and forever cast it into darkness, taking their revenge for being rejected.</p>
     </div>
 

@@ -48,7 +48,7 @@ function Header({ siteTitle }) {
             Books
           </Link>
           <Link
-            to={`/biography`}
+            to={`#bio`}
             className="font-serif block mt-4 lg:inline-block lg:mt-0 text-dingygrey font-bold hover:bg-dingygrey hover:text-creme rounded-sm px-2 mr-5 lg:mr-20 uppercase text-4xl md:text-base"
           >
             Bio
@@ -62,7 +62,7 @@ function Header({ siteTitle }) {
         </div>
         <div className="border-b-2 border-dingygrey md:border-none">
           <a
-            href="#download"
+            href="#free-story"
             className="font-serif inline-block uppercase font-bold px-2 py-2 mt-6 mb-6 lg:mr-20 lg:m-0 lg:px-6 lg:py-4 leading-none border rounded-lg text-creme bg-dingygrey hover:bg-creme hover:text-dingygrey hover:border hover:border-dingygrey mt-4 lg:mt-0 text-4xl md:text-base text-center"
           >
             Free Short Story
