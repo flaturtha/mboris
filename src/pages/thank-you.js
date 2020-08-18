@@ -9,7 +9,7 @@ const TYPage = () => (
       <SEO title="Thanks for requesting your free short story" />
             
       <h1 className="text-xl md:text-3xl font-bold text-center my-8">
-          Thanks for requesting you copy of
+          Thanks for requesting your copy of
       </h1>
 
       <div className="flex flex-col md:flex-row justify-center align-center m-0 p-0 md:m-8 mb-8">
