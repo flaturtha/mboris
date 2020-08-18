@@ -1,11 +1,12 @@
 import React from "react"
 
 import LPLayout from '../components/landingpagelayout'
+import Cover from '../components/cover'
 import SEO from "../components/seo"
 
 const TYPage = () => (
   <LPLayout>
-    <section className="container mx-auto my-8 px-4 md:w-4/6">
+    <section className="container mx-auto my-8 px-4 md:w-1/2">
       <SEO title="Thanks for requesting your free short story" />
             
       <h1 className="text-xl md:text-3xl font-bold text-center my-8">
@@ -13,10 +14,12 @@ const TYPage = () => (
       </h1>
 
       <div className="flex flex-col md:flex-row justify-center align-center m-0 p-0 md:m-8 mb-8">
-        <img src="https://via.placeholder.com/180x300" alt="" className="mb-4 md:mr-8" />
+        <div className="mb-4 md:mr-8 w-full md:w-1/5">
+          <Cover />
+        </div>
         <div className="self-center">
-          <h2 className="text-lg text-center mb-4 md:mb-0">THE CURSE OF THE MOBEDĀN MOBED</h2>
-          <h3 className="text-base italic text-center">Vol. 0, No. 1 — THE GODS WHO ARE REJECTED.</h3>
+          <h2 className="text-lg font-bold text-center mb-4 md:mb-0">THE CURSE OF THE MOBEDĀN MOBED</h2>
+          <h3 className="text-base font-bold italic text-center">Vol. 0, No. 1 — THE GODS WHO ARE REJECTED.</h3>
         </div>
       </div>
 
@@ -34,10 +37,8 @@ const TYPage = () => (
       <p>
         And as part of this giveaway, you’ll also receive 7 more short stories
         dripped out over the next few months. Details in your Welcome email with
-        your download links. Look for the subject line:</p>
-        
-      <p className="font-semibold text-center">[Welcome!] Your M. Boris short story download links …</p>
-      <hr className="w-1/2 mx-auto mb-12" />
+        your download links. Look for the subject line: <span className="font-semibold text-center">[Welcome!] Your M. Boris short story download links …</span></p>
+      <hr className="w-1/2 mx-auto my-12" />
       <h2 className="text-xl md:text-3xl text-center font-black bg-dingygrey text-creme">
           Want to get 8 novellas &hellip;<br className="md:hidden"/>the entire 1st volume of<br className="hidden md:block" /> THE&nbsp;64&nbsp;TESTAMENTS&nbsp;OF&nbsp;KRILL <br className="md:hidden" />for just $1?
       </h2>

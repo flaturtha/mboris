@@ -1,4 +1,6 @@
 import React from "react"
+import { AnchorLink } from 'gatsby-plugin-anchor-links'
+
 import { BsBoxArrowInDown } from 'react-icons/bs'
 
 const Books = props => (
@@ -13,9 +15,10 @@ const Books = props => (
 
       <p className="italic mt-8 md:w-1/2 mx-auto">His sacrilege awoke an ancient evil that demanded the souls of his troops and cursed him to wander the earth for eternity, paying his wretched daily penance.</p>
       
-      {/* make this a link to the download form */}
-      <p className="text-sm text-center italic underline md:w-1/2 my-4 mx-auto">Get your FREE short story prequel series<br/>THE GODS WHO ARE REJECTED<br/><BsBoxArrowInDown className="text-xl inline black" /></p>
-      <br className="hidden md:block"/>
+      <AnchorLink to="#free-story" title="Free Short Story">
+        <p className="text-sm text-center italic underline md:w-1/2 my-4 mx-auto">Get your FREE short story prequel series<br/>THE GODS WHO ARE REJECTED<br/><BsBoxArrowInDown className="text-xl inline black" /></p>
+        <br className="hidden md:block"/>
+      </AnchorLink>
       
       <p><span className="font-semibold">NOW, AFTER NEARLY 100 YEARS OF</span> searching, Colonel Krill has proof that the 'gods who are rejected' are indeed vulnerable, and if he can locate the 5 relics before the end of the 9,000 years of Ahriman's rule, signified by the return of the comet, he can lure this ancient evil from their realm into a trap that will destroy them and finally break the curse.</p>
       <p>But the 'gods who are rejected' have allies in the realm of humanity; allies willing to use whatever means necessary to use Col. Krill as a gateway through which the dark gods can enter our realm and forever cast it into darkness, taking their revenge for being rejected.</p>

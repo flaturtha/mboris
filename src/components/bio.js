@@ -1,5 +1,5 @@
 import React from "react"
-import { BsBoxArrowInDown } from 'react-icons/bs'
+import { AnchorLink } from 'gatsby-plugin-anchor-links'
 
 const Books = props => (
   <section className="container mx-auto mt-0 lg:py-12 lg:px-20 bg-dingygrey text-creme" id="bio">
@@ -20,10 +20,13 @@ const Books = props => (
       <p>Although the man, his life &amp; travels are real, the name is utterly fictional, a pen name under which he writes mythology-based ‘cosmic’ horror, fantasy, and action/adventure. If you look hard enough, maybe you’ll find out who he really is!</p>
       <hr className="my-8" />
       <p>M. Boris is an archaeologist, an investigator of the unusual, the mythical, and what goes bump in the night. Explorer of the dark. Author of pulp cosmic horror adventure!</p>
-      <p>His reportage on all things weird and spooky (in his newsletter &mdash; <span className="font-semibold uppercase">what goes <em>bump</em> in the night!</span>) is a pseudo-scholarly survey of his latest discoveries and research: new books/stories (new authors/PD works), relevant news, fascinating tidbits related to his stories, background research, etc.</p>
+      <p>His reportage on all things weird and spooky in his newsletter &mdash; <span className="font-semibold uppercase">what goes <em>bump</em> in the night!</span> &mdash; is a pseudo-scholarly survey of his latest discoveries and research: new books/stories (new authors/PD works), relevant news, fascinating tidbits related to his stories, background research, etc.</p>
       <p>The <em>Indiana Jones</em> of monster, demons, &amp; mad mythology!</p>
 
-      <button className="border rounded p-4 text-dingygrey font-bold bg-creme mx-auto my-6 block" >SUBSCRIBE!</button>
+      <AnchorLink to="#free-story">
+        <button className="border rounded p-4 text-dingygrey font-bold bg-creme mx-auto my-6 block">SUBSCRIBE!</button>
+      </AnchorLink>
+      <p className="w-4/5 mx-auto italic">Subscribe to the weekly e-newsletter for fascinating facts, new release updates, &amp; more. PLUS, get a free short story when you subscribe!</p>
 
     </div>
 
