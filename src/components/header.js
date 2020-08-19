@@ -7,7 +7,7 @@ function Header({ siteTitle }) {
 
   return (
     <>
-    <div className="w-full bg-creme m-0">
+    <div className="w-full bg-creme m-0" id="header">
     <nav className="flex items-center justify-between flex-wrap p-6 bg-creme border-b border-dingygrey">
       <Link to={'/'}>
         <div className="flex items-center flex-shrink-0 mr-6">

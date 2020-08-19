@@ -6,6 +6,7 @@ import Hero from '../components/hero'
 import Books from '../components/books'
 import Bio from '../components/bio'
 import Subscribe from '../components/subscribe'
+import Btt from '../components/btt'
 
 const IndexPage = () => (
   <Layout>
@@ -14,6 +15,7 @@ const IndexPage = () => (
     <Books />
     <Bio />
     <Subscribe />
+    <Btt />
   </Layout>
 )
 

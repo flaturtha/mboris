@@ -1,5 +1,7 @@
 import React from 'react'
 import Image from "../components/image"
+import { FaChevronCircleDown } from 'react-icons/fa'
+import { AnchorLink } from 'gatsby-plugin-anchor-links'
 
 const Hero = (props) => (
 
@@ -21,8 +23,10 @@ const Hero = (props) => (
 </section>
 
 <h1 className="tracking-wide text-center text-xl md:text-4xl mt-0 md:mt-12 pb-12 md:pb-0 mb-0 font-medium text-creme">THE MANIACAL MIND BEHIND &hellip;</h1>
-<p className="text-creme text-4xl text-center mb-0 pb-9=0 font-black">&#709;</p>
 
+<AnchorLink to="#books">
+  <FaChevronCircleDown className="text-creme text-6xl mx-auto pb-8 md:mt-12 md:pb-0" />
+</AnchorLink>
 
 </div>
 )
