@@ -5,12 +5,14 @@ const fullConfig = resolveConfig(tailwindConfig);
 
 module.exports = {
   siteMetadata: {
+    siteUrl: 'https://www.mboris.com',
     title: `M. Boris`,
     description: `Official website of cosmic horror author M. Boris`,
     author: `@mboris`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
+    'gatsby-plugin-sitemap',
     {
       resolve: "gatsby-plugin-google-tagmanager",
       options: {
@@ -68,7 +70,7 @@ module.exports = {
         cookieDomain: "example.com",
       },
     },
-
+    
     {
       resolve: 'gatsby-plugin-anchor-links',
       options: {
