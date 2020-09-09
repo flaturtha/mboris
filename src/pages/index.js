@@ -1,22 +1,27 @@
 import React from "react"
 
-import Layout from "../components/layout"
 import SEO from "../components/seo"
+import LPLayout from "../components/landingpagelayout"
+import Subscribe from '../components/subscribe'
+{/*
+import Layout from "../components/layout"  
 import Hero from '../components/hero'
 import Books from '../components/books'
 import Bio from '../components/bio'
-import Subscribe from '../components/subscribe'
-import Btt from '../components/btt'
+import UnderConstruction from "../components/undercontruction"
+import Btt from '../components/btt'*/}
 
 const IndexPage = () => (
-  <Layout>
+  <LPLayout> {/* change to Layout when full site ready! s*/}
     <SEO title="Home" />
-    <Hero />
+    <Subscribe />
+    
+    {/* <Hero />
+    <UnderConstruction />
     <Books />
     <Bio />
-    <Subscribe />
-    <Btt />
-  </Layout>
+    <Btt /> */}
+  </LPLayout>
 )
 
 export default IndexPage

@@ -2,10 +2,11 @@ import React from "react"
 import PCTAForm from '../components/PrimaryCTAForm'
 import Cover from './cover'
 
-const Subscribe = props => (
-  <section className="container mx-auto mt-0 lg:py-12 lg:px-20" id="free-story">
-    <div className="p-8 md:w-4/6 mx-auto">
-      
+const SubscribeUC = props => (
+  <section className="container mx-auto mt-0 lg:py-12" id="free-story">
+    <div className="mt-2 p-8 mx-auto">
+      <hr/>
+      <h2 className="text-2xl text-center font-black my-4 ">In the meantime &hellip;</h2>
       <h2 className="text-3xl text-center font-black my-4 ">Get your free copy of</h2>
       <h3 className="text-xl text-center font-black mt-4 mb-8">THE CURSE OF THE MOBEDAN&nbsp;MOBED<br/><span className="text-sm italic">THE GODS WHO WERE REJECTED | Vol. 0, No. 1</span></h3>
 
@@ -34,4 +35,4 @@ const Subscribe = props => (
     </section>
 )
 
-export default Subscribe
+export default SubscribeUC
