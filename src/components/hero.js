@@ -1,5 +1,5 @@
 import React from 'react'
-import Image from "../components/image"
+import Mug from "./mug"
 import { FaChevronCircleDown } from 'react-icons/fa'
 import { AnchorLink } from 'gatsby-plugin-anchor-links'
 
@@ -10,11 +10,11 @@ const Hero = (props) => (
   <div className="container mx-auto flex px-5 lg:flex-row flex-col items-center">
     
     <div className="flex flex-col md:flex-row md:justify-center md:items-center w-full mt-8">
-      <div className="object-cover object-center overflow-hidden rounded-full border-b border-r shadow-2xl md:w-screen">
-        <Image />
+      <div className="object-cover object-center overflow-hidden rounded-full border-b border-r shadow-2xl md:w-screen max-w-md">
+        <Mug className="" />
       </div>
       
-      <h2 className="text-center lg:block md:text-xl md:ml-8 my-8 md:my-0 font-medium text-creme">EXPLORER OF THE DARK <span className="text-creme">&middot;</span> INVESTIGATOR OF WHAT GOES <em>BUMP</em> IN THE NIGHT <span className="text-creme">&middot;</span> AUTHOR OF PULP COSMIC HORROR ADVENTURE <span className="text-creme">&middot;</span></h2>
+      <h2 className="text-center lg:block md:text-xl lg:text-4xl md:ml-8 my-8 md:my-0 font-medium text-creme">EXPLORER OF THE DARK <span className="text-creme">&middot;</span> INVESTIGATOR OF WHAT GOES <em>BUMP</em> IN THE NIGHT <span className="text-creme">&middot;</span> AUTHOR OF PULP COSMIC HORROR ADVENTURE <span className="text-creme">&middot;</span></h2>
 
     </div>
 
@@ -22,7 +22,7 @@ const Hero = (props) => (
 
 </section>
 
-<h1 className="tracking-wide text-center text-xl md:text-4xl mt-0 md:mt-12 pb-12 md:pb-0 mb-0 font-medium text-creme">THE MANIACAL MIND BEHIND &hellip;</h1>
+<h1 className="tracking-wide text-center text-xl md:text-3xl italic mt-0 md:mt-12 pb-12 md:pb-0 mb-0 font-medium text-creme">THE MANIACAL MIND BEHIND &hellip;</h1>
 
 <AnchorLink to="#books">
   <FaChevronCircleDown className="text-creme text-6xl mx-auto pb-8 md:mt-12 md:pb-0" />
