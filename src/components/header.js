@@ -41,7 +41,7 @@ function Header({ siteTitle }) {
       >
         <div className="flex-1 md:flex lg:justify-end md:pb-3 lg:pb-0">
           <Link
-            to={`#books`}
+            to={`/books`}
             href="#responsive-header"
             className="d:w-1/3 lg:w-auto md:text-center items-end font-serif block mt-4 lg:inline-block lg:mt-0 text-dingygrey font-bold hover:bg-dingygrey hover:text-creme rounded-sm px-2 mr-7 lg:mr-20 uppercase text-4xl md:text-base"
           > 
