@@ -42,7 +42,7 @@ const Books = props => (
         it into darkness, taking their revenge for being rejected.
       </p>
 
-      <div className="w-full md:w-3/4 mx-auto mb-8 pt-4 pb-8 px-4 border-gray-300 shadow-xl">
+      <div className="w-full md:w-3/4 mx-auto mb-8 pt-4 pb-8 px-4 border-gray-300">
         <p className="text-center italic text-lg lg:text-xl mt-4 mx-auto">Enter the world of Col. Krill with a <u>FREE</u> introductory story &hellip;</p>
           <p className="text-center italic text-xl md:text-2xl tracking-wide font-black underline mb-4 mx-auto">
             THE MADNESS OF KRILL</p>

@@ -1,7 +1,7 @@
 import React from "react"
 
 const Intro = props => (
-  <section className="container mx-auto -mt-4 mb-8 px-4 lg:py-12 lg:px-20 lg:border-gray-400 lg:border-t-grey-900 lg:shadow-xl">
+  <section className="container mx-auto -mt-4 mb-8 px-4 lg:py-12 lg:px-20 lg:border-gray-400 lg:border-t-grey-900">
     
       <div className="my-8 -pb-1 border-t border-b border-gray-400 flex not-italic justify-between">
         <p className="mb-0 pb-0 text-sm md:text-base">
