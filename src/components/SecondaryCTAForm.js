@@ -1,7 +1,8 @@
 import React from 'react'
 
-const PCTAForm = (props) => (
+const SCTAForm = (props) => (
   <div className="mx-auto w-full">
+    <h1>NOTE: CHANGE FORM!!</h1>
     <form className="sm:mx-auto bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4" name="PCTAForm" action="/thank-you" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
     <input type="hidden" name="bot-field" />
     <input type="hidden" name="form-name" value="PCTAForm" />
@@ -21,16 +22,17 @@ const PCTAForm = (props) => (
     </div>
 
     <div className="flex items-center justify-center">
-      <button className="bg-dingygrey text-creme font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="submit">
-        Get My Free Story!
+      <button className="text-dingygrey bg-creme font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="submit">
+        SUBSCRIBE
       </button>
     </div>
     <p className="mt-4 text-center text-gray-500 text-xs">
     Your information is secure &amp; will only be used to communicate directly with you from this site.
   </p>
+  <p className="w-4/5 mx-auto italic">Subscribe to the bi-weekly e-bulletin for fascinating facts, new release updates, recommendations of other books to complete your library, &amp; more &hellip; PLUS the free short story &mdash; THE&nbsp;MADNESS&nbsp;OF&nbsp;KRILL &mdash; when you subscribe!</p>
     </form>
 
   </div>
 )
 
-export default PCTAForm
+export default SCTAForm

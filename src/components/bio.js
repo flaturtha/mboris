@@ -1,14 +1,14 @@
 import React from "react"
-import { AnchorLink } from 'gatsby-plugin-anchor-links'
+import SCTAForm from "./SecondaryCTAForm"
 
-const Books = props => (
+const Bio = props => (
   <section className="container mx-auto mt-0 lg:py-12 lg:px-20 bg-dingygrey text-creme" id="bio">
     <div className="mt-2 p-8 md:w-4/6 mx-auto">
       <h1 className="text-xl font-semibold" className="text-3xl text-black text-center mb-8">Who is M. Boris?</h1>
 
       <img src="https://via.placeholder.com/150x300" alt="placeholder for M. Boris standing pose" className="float-left mr-4 mb-4 hidden md:block" />
 
-      <img src="https://via.placeholder.com/300x300" alt="placeholder for M. Boris standing pose" className="md:float-left mr-4 mb-8 md:hidden" />
+      <img src="https://via.placeholder.com/300x300" alt="placeholder for M. Boris standing pose, cropped" className="md:float-left mr-4 mb-8 md:hidden" />
 
       <p className="text-lg font-semibold">M. Boris is host to the maniacal mind behind THE 64 TESTAMENTS OF COL. KRILL &amp; THE TENTACLE CULT and the short story prequel series: THE GODS WHO ARE REJECTED.</p>
       <p>He is a world traveler and explorer, fascinated by the myths and stories that drive faith and belief.</p>
@@ -19,18 +19,19 @@ const Books = props => (
       <p>But wherever his travels lead, across the globe or deep into the stacks at the local library, M. Boris will return with great stories to tell so that you’ve got something fun, funny, suspenseful, terrifying to read under those bedclothes while monsters creep outside.</p>
       <p>Although the man, his life &amp; travels are real, the name is utterly fictional, a pen name under which he writes mythology-based ‘cosmic’ horror, fantasy, and action/adventure. If you look hard enough, maybe you’ll find out who he really is!</p>
       <hr className="my-8" />
+      
+      <div id="bulletin">
+      <h2 className="my-6">WHAT GOES <em>BUMP</em> IN THE NIGHT</h2>
       <p>M. Boris is an archaeologist, an investigator of the unusual, the mythical, and what goes bump in the night. Explorer of the dark. Author of pulp cosmic horror adventure!</p>
       <p>His reportage on all things weird and spooky in his newsletter &mdash; <span className="font-semibold uppercase">what goes <em>bump</em> in the night!</span> &mdash; is a pseudo-scholarly survey of his latest discoveries and research: new books/stories (new authors/PD works), relevant news, fascinating tidbits related to his stories, background research, etc.</p>
       <p>The <em>Indiana Jones</em> of monster, demons, &amp; mad mythology!</p>
 
-      <AnchorLink to="#free-story">
-        <button className="border rounded p-4 text-dingygrey font-bold bg-creme mx-auto my-6 block">SUBSCRIBE!</button>
-      </AnchorLink>
-      <p className="w-4/5 mx-auto italic">Subscribe to the weekly e-newsletter for fascinating facts, new release updates, &amp; more. PLUS, get a free short story when you subscribe!</p>
+      <SCTAForm />
+      </div>
 
     </div>
 
     </section>
 )
 
-export default Books
+export default Bio

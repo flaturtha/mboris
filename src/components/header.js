@@ -41,20 +41,20 @@ function Header({ siteTitle }) {
       >
         <div className="flex-1 md:flex lg:justify-end md:pb-3 lg:pb-0">
           <Link
-            to={`/books`}
+            to={`#testaments`}
             href="#responsive-header"
             className="d:w-1/3 lg:w-auto md:text-center items-end font-serif block mt-4 lg:inline-block lg:mt-0 text-dingygrey font-bold hover:bg-dingygrey hover:text-creme rounded-sm px-2 mr-7 lg:mr-20 uppercase text-4xl md:text-base"
           > 
             Books
           </Link>
           <Link
-            to={`/blog`}
+            to={`#bio`}
             className="d:w-1/3 lg:w-auto md:text-center items-end font-serif block mt-4 lg:inline-block lg:mt-0 text-dingygrey font-bold hover:bg-dingygrey hover:text-creme rounded-sm px-2 mr-10 lg:mr-20 uppercase text-4xl md:text-base"
           >
-            Blog
+            Bio
           </Link>
           <Link
-            to={`/bulletin`}
+            to={`#bulletin`}
             className="d:w-1/3 lg:w-auto md:text-center items-end font-serif block mt-4 lg:inline-block lg:mt-0 text-dingygrey font-bold hover:bg-dingygrey hover:text-creme rounded-sm px-2 mr-10 lg:mr-20 uppercase text-4xl md:text-base"
           >
             Bulletin
@@ -62,10 +62,10 @@ function Header({ siteTitle }) {
         </div>
         <div className="border-b-2 border-dingygrey md:border-none">
           <a
-            href="/beta-reader"
+            href="#reader-magnet"
             className="font-serif inline-block uppercase font-bold px-2 py-2 mt-6 mb-6 lg:mr-20 lg:m-0 lg:px-6 lg:py-4 leading-none border rounded-lg text-creme bg-dingygrey hover:bg-creme hover:text-dingygrey hover:border hover:border-dingygrey mt-4 lg:mt-0 text-4xl md:text-base text-center"
           >
-            Beta Reader
+            Free Story
           </a>
         </div>
       </div>

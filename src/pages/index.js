@@ -4,7 +4,8 @@ import SEO from "../components/seo"
 import Subscribe from '../components/subscribe'
 import Layout from "../components/layout"  
 import Hero from '../components/hero'
-import Books from '../components/books'
+import Testaments from '../components/testaments'
+import ReaderMagnet from '../components/reader-magnet'
 import Bio from '../components/bio'
 import Btt from '../components/btt'
 
@@ -12,10 +13,10 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <Hero />
-    <Books />
+    <Testaments />
+    <ReaderMagnet />
     <Bio />
-    <Subscribe />
-    <Btt />
+    {/* <Btt /> */}
   </Layout>
 )
 
