@@ -27,11 +27,14 @@ const ReaderMagnet = props => (
         </div>
       </div>
 
+      <p className="text-center text-4xl text-alarmred font-black"><span className="bg-shockingyellow p-2">COMING SOON!</span></p>
+
+
       <PCTAForm />
 
-      <p className="mt-8 text-sm italic">You'll also get a semi-weekly email from ted@tentaclecult.com called THE CITIZEN REPORTER. It is "written" by Ted Pyne and adds depth to THE MADNESS OF KRILL, as well as upcoming stories &hellip; clues, background, character details, etc. Just a fun way of adding to the story!</p>
+      <p className="mt-8 text-sm italic hidden">You'll also get a semi-weekly email from ted@tentaclecult.com called THE CITIZEN REPORTER. It is "written" by Ted Pyne and adds depth to THE MADNESS OF KRILL, as well as upcoming stories &hellip; clues, background, character details, etc. Just a fun way of adding to the story!</p>
 
-      <p className="text-sm">Plus, you'll get my bi-weekly author e-bulletin called WHAT GOES <em>BUMP</em> IN THE NIGHT, a pseudo-scholarly survey of monsters and their history, other authors that you might enjoy, relevant news, and other fascinating tidbits that make your enjoyment of cosmic horror more complete!</p>
+      <p className="text-sm hidden">Plus, you'll get my bi-weekly author e-bulletin called WHAT GOES <em>BUMP</em> IN THE NIGHT, a pseudo-scholarly survey of monsters and their history, other authors that you might enjoy, relevant news, and other fascinating tidbits that make your enjoyment of cosmic horror more complete!</p>
 
     </div>
   </section>

@@ -9,6 +9,7 @@ module.exports = {
       shockingyellow: '#fed136',
       creme: '#ffffff',
       dingygrey: '#242424',
+      alarmred: '#ff0000',
     },
     fontFamily: {
       'serif': ['Libertinus Serif Regular'],
