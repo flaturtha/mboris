@@ -2,7 +2,7 @@ import React from 'react'
 
 const EMForm = (props) => (
   <div className="mx-auto w-full md:max-w-2xl">
-    <form className="sm:mx-auto bg-white rounded px-8 pt-6 pb-8 mb-4" name="EMForm" action="/thank-you" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
+    <form className="sm:mx-auto bg-white rounded px-8 pt-6 pb-8 mb-4" name="EMForm" action="/ty2" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
     <input type="hidden" name="bot-field" />
     <input type="hidden" name="form-name" value="EMForm" />
 
