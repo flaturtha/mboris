@@ -3,9 +3,9 @@ import React from 'react'
 const SCTAForm = (props) => (
   <div className="mx-auto w-full">
     <h1>NOTE: CHANGE FORM!!</h1>
-    <form className="sm:mx-auto bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4" name="PCTAForm" action="/thank-you" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
+    <form className="sm:mx-auto bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4" name="SCTAForm" action="/thank-you" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
     <input type="hidden" name="bot-field" />
-    <input type="hidden" name="form-name" value="PCTAForm" />
+    <input type="hidden" name="form-name" value="SCTAForm" />
 
     <div className="mb-4">
       <label className="block text-gray-700 text-sm font-bold mb-2" htmlFor="name">
