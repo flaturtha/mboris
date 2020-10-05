@@ -1,13 +1,13 @@
 @tailwind base;
 
 @font-face {
-  font-family: Libertinus Serif;
+  font-family: Libertinus Sans;
   font-weight: 400;
   src: url(../static/fonts/LibertinusSerif-Regular.woff2) format("woff2");
 }
 
 * {
-  font-family: Libertinus Serif;
+  font-family: Libertinus Sans;
   /* font-size: 18px; */
 }
 

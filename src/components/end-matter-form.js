@@ -1,12 +1,15 @@
 import React from 'react'
 
 const EMForm = (props) => (
-  <div className="mx-auto w-full md:max-w-2xl">
+  <div className="mx-auto w-full md:max-w-2xl border-t border-r border-l">
     <form className="sm:mx-auto bg-white rounded px-8 pt-6 pb-8 mb-4" name="EMForm" action="/ty2" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
     <input type="hidden" name="bot-field" />
     <input type="hidden" name="form-name" value="EMForm" />
 
     <div className="mb-4">
+      <h2 className="text-xl text-center font-semibold">Subscribe to <em>THE&nbsp;CITIZEN&nbsp;REPORTER</em></h2>
+      <p className="text-center font-semibold">and get exclusive story details &amp;&nbsp;background &hellip; </p>
+      <hr className="w-1/2 mx-auto mb-12" />
       <label className="block text-gray-700 text-sm font-bold mb-2 uppercase" htmlFor="name">
         First Name &hellip;
       </label>
