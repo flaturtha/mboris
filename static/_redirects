@@ -5,4 +5,4 @@
 /tcr          /subscribe-em                301
 
 # Redirect with a 302
-/v1n1  /      /subscribe-em                302
+/v1n1        /subscribe-em                302
