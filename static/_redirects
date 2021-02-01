@@ -1,8 +1,24 @@
 # /*    /index.html   200
 
-# Redirect with a 301
+# Redirect with a 301 (permanent)
 /home         /                            301
 /tcr          /subscribe-em                301
+/subscribe          /subscribe-em                301
+/vol1        https://www.amazon.com/gp/product/B08MJN9JKF                301
+/v1n0         #reader-magnet               301
+/v1n1        https://www.amazon.com/gp/product/B08MHHRSLG                301
+/v1n1/leave-a-review        https://www.amazon.com/review/create-review/?ie=UTF8&channel=glance-detail&asin=B08MHHRSLG                301
+/v1n2        https://www.amazon.com/gp/product/B08TV4PYHV                301
+/v1n2/leave-a-review        https://www.amazon.com/review/create-review/?ie=UTF8&channel=glance-detail&asin=B08TV4PYHV                301
+/v1n3        https://www.amazon.com/gp/product/B08TV478GF                301
+/v1n3/leave-a-review        https://www.amazon.com/review/create-review/?ie=UTF8&channel=glance-detail&asin=B08TV478GF                301
+/v1n4        https://www.amazon.com/gp/product/B08TW3DQR5                301
+/v1n4/leave-a-review        https://www.amazon.com/review/create-review/?ie=UTF8&channel=glance-detail&asin=B08TW3DQR5                301
+/v1n5        https://www.amazon.com/gp/product/B08VHPXYSL                301
+/v1n5/leave-a-review        https://www.amazon.com/review/create-review/?ie=UTF8&channel=glance-detail&asin=B08VHPXYSL                301
 
-# Redirect with a 302
-/v1n1        https://www.amazon.com/gp/product/B08MHHRSLG                302
+# Redirect with a 302 (temporary)
+/v1n6        /coming-soon                302
+/v1n7        /coming-soon                302
+/v1n8        /coming-soon                302
+
