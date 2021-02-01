@@ -40,25 +40,21 @@ function Header({ siteTitle }) {
         } w-full block flex-grow md:flex md:items-center md:w-auto h-screen md:h-auto mt-10 border-t-2 border-dingygrey md:border-none md:m-0`}
       >
         <div className="flex-1 md:flex lg:justify-end md:pb-3 lg:pb-0">
-          <Link
-            to={`#testaments`}
-            href="#responsive-header"
+          <a href="#testaments"
             className="d:w-1/3 lg:w-auto md:text-center items-end font-serif block mt-4 lg:inline-block lg:mt-0 text-dingygrey font-bold hover:bg-dingygrey hover:text-creme rounded-sm px-2 mr-7 lg:mr-20 uppercase text-4xl md:text-base"
           > 
             Books
-          </Link>
-          <Link
-            to={`#bio`}
+          </a>
+          <a href="#bio"
             className="d:w-1/3 lg:w-auto md:text-center items-end font-serif block mt-4 lg:inline-block lg:mt-0 text-dingygrey font-bold hover:bg-dingygrey hover:text-creme rounded-sm px-2 mr-10 lg:mr-20 uppercase text-4xl md:text-base"
           >
             Bio
-          </Link>
-          <Link
-            to={`#bulletin`}
+          </a>
+          <a href="#bulletin"
             className="d:w-1/3 lg:w-auto md:text-center items-end font-serif block mt-4 lg:inline-block lg:mt-0 text-dingygrey font-bold hover:bg-dingygrey hover:text-creme rounded-sm px-2 mr-10 lg:mr-20 uppercase text-4xl md:text-base"
           >
             Bulletin
-          </Link>
+          </a>
         </div>
         <div className="border-b-2 border-dingygrey md:border-none">
           <a

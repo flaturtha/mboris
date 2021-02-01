@@ -7,7 +7,7 @@ import EMForm from '../components/end-matter-form'
 const ComingSoon = () => (
   <LPLayout>
     <section className="container mx-auto my-8 px-4 md:px-0">
-      <SEO title="landing page ... end matter subscription" />
+      <SEO title="coming soon" />
 
       <header className="mt-2 p-8">
         <hr className="w-1/2 mx-auto mb-4" />

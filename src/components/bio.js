@@ -6,9 +6,9 @@ const Bio = props => (
     <div className="mt-2 p-8 md:w-4/6 mx-auto">
       <h1 className="text-xl font-semibold" className="text-3xl text-black text-center mb-8">Who is M. Boris?</h1>
 
-      <img src="https://via.placeholder.com/150x300" alt="placeholder for M. Boris standing pose" className="float-left mr-4 mb-4 hidden md:block" />
+      <img src="https://via.placeholder.com/150x300" alt="placeholder for M. Boris standing pose" className="float-left mr-4 mb-4 hidden md:hidden" />
 
-      <img src="https://via.placeholder.com/300x300" alt="placeholder for M. Boris standing pose, cropped" className="md:float-left mr-4 mb-8 md:hidden" />
+      <img src="https://via.placeholder.com/300x300" alt="placeholder for M. Boris standing pose, cropped" className="md:float-left mr-4 mb-8 hidden md:hidden" />
 
       <p className="text-lg font-semibold">M. Boris is host to the maniacal mind behind THE 64 TESTAMENTS OF COL. KRILL &amp; THE TENTACLE CULT and the short story prequel series: THE GODS WHO ARE REJECTED.</p>
       <p>He is a world traveler and explorer, fascinated by the myths and stories that drive faith and belief.</p>
