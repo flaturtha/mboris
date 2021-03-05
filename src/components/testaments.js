@@ -91,14 +91,14 @@ const Testaments = props => (
         </li>
 
         <li className="m-8 w-32 mx-8 float-left">
-          <a href="/coming-soon">
+          <a href="https://www.amazon.com/gp/product/B08W3MS3G2">
             <Coverv1n6 />
             <p className="text-center font-bold">v1n6</p>
           </a>
         </li>
 
         <li className="m-8 w-32 mx-8 float-left">
-          <a href="/coming-soon">
+          <a href="https://www.amazon.com/gp/product/B08WCQYKVS">
             <Coverv1n7 />
             <p className="text-center font-bold">v1n7</p>
           </a>
